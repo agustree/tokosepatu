@@ -1,0 +1,99 @@
+---- BACK END
+-- Menu
+  1. Dashboard
+  2. Master User
+  3. Master Employee
+  4. Master Item
+  5. Master Expedisi
+  6. Master Discount
+
+
+---- FRONT END--------------------------------------------
+
+
+---- DATABASE----------------------------------------------
+--ADMINISTRATOR----------------
+
+-- USER EMPLOYEE
+  1. ID USER
+  2. USERNAME
+  3. PASSWORD
+  4. AKSES
+
+-- MASTER ITEM
+  1. ID ITEM
+  2. NAMA ITEM
+  3. PRICE
+  4. SIZE
+  5. COLOR
+
+-- EXPEDISI
+  1. ID EXPEDISI
+  2. NAMA
+  3. SERVICES
+  4. NO_RESI
+  5. STATUS 
+
+-- USER CUSTOMER
+  1. ID USER CUSTOMER
+  2. USERNAME
+  3. PASSWORD
+  4. AKSES
+
+-- DISCOUNT
+  1. ID_Discount
+  2. DESCRIPTION
+  3. AMOUNT
+
+---CUSTOMER --------------------
+--USER CUSTOMER
+  1. ID CUSTOMER
+  2. NAMA
+  3. ALAMAT LENGKAP
+  4. NO TELP
+  
+--PAYMENT----------------------------------------------------
+  1. ID PAYMENT
+  2. METODE PAYMENT
+  3. ACOUNT PAY
+  4. NO ACCOUNT
+  5. STATUS
+  6. TGL PAYMENT
+
+--SHOPPING
+  1. ID SHOPPING
+  2. ID PAYMENT
+  3. ID CUSTOMER 
+  4. ID EXPEDISI
+  5. TGL SHOPING
+  6. PPN
+  7. ID DISCOUNT
+
+-- SHOPPING DETAILS
+  1. ID SHOPPING
+  1. ID ITEM
+  2. COUNT ITEM
+  3. ITEM STATUS
+  4. TOTAL
+
+--- OFFICE SHOPP ADMIN---------------------
+-- EMPLOYEE
+  1. ID EMPLOYEE
+  2. NAMA
+  3. ALAMAT
+  4. TGL GABUNG
+  5. JABATAN
+
+-- JOB DESK
+  1. ID JOB
+  2. ID EMPLOYEE
+  3. ID SHOPPING
+  4. TGL SERVICE
+  5. STATUS
+
+
+---- LAYOUT--------------------------------------------------------
+
+
+
+---- FLOW ----------------------------------------------------------
